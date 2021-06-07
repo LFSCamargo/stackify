@@ -1,0 +1,7 @@
+# Build folders
+.build
+build
+web_modules
+
+# Node Modules
+node_modules
