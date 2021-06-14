@@ -1,4 +1,7 @@
 {
+  "name": "@stackify/web",
+  "version": "1.0.0",
+  "description": "The idea is a simple template for rest using nodejs and express",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",

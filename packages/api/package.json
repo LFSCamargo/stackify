@@ -1,5 +1,5 @@
 {
-  "name": "template-rest",
+  "name": "@stackify/api",
   "version": "1.0.0",
   "description": "The idea is a simple template for rest using nodejs and express",
   "main": "src/server.ts",
