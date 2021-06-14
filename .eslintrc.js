@@ -1,3 +1,8 @@
+
+const off = "off";
+const warn = "warn";
+const error = "error";
+
 // eslint-disable-next-line
 module.exports = {
   env: {
@@ -18,5 +23,9 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react", "@typescript-eslint"],
-  rules: {},
+  rules: {
+    '@typescript-eslint/interface-name-prefix': off,
+    '@typescript-eslint/explicit-function-return-type': off,
+    'react/prop-types': off
+  },
 };

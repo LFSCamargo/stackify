@@ -19,7 +19,7 @@ const PrivateRoute: FC<Props> = ({
   return (
     <Route
       {...rest}
-      render={(props): JSX.Element =>
+      render={(props) =>
         isLogged ? (
           <Component {...props} />
         ) : (
